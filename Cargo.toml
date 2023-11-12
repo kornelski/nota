@@ -1,0 +1,15 @@
+[package]
+name = "nota"
+authors = ["Kornel <kornel@geekhood.net>", "Douglas Crockford <douglas@crockford.com>"]
+description = "A message format for an alternative universe where IEEE754 floats, UTF-8, and little endian never existed"
+version = "0.1.0"
+edition = "2021"
+homepage = "https://www.crockford.com/nota.html"
+documentation = "https://lib.rs/crates/nota"
+license = "CC0-1.0"
+
+[dependencies]
+bitvec = "1.0.1"
+
+[badges]
+maintenance = { status = "as-is" }
